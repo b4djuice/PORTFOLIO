@@ -1,0 +1,34 @@
+body {
+    background-color: #d62f2f;   
+    display:flex;
+    justify-content: center;
+    margin: 0px;
+
+}
+
+#main-container {
+    background-color: #d62f2f;
+    width: 1024px;
+    height: 3000px;
+    border: solid 1px black;
+}
+
+#home-header {
+    background-color: #d62f2f;
+    height: 152px;
+    width: 1024px;
+    border: 1px black;
+}
+
+#home-name {
+    border: 1px d62f2f;
+    height: 521px;
+    background-color: #d62f2f;
+}
+
+#home-descriptions {
+    background-color: white;
+    height: 521px;
+    display: flex;
+    justify-content: center;
+}
