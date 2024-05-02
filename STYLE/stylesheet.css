@@ -27,14 +27,15 @@
   font-weight: 700;
   font-style: normal;
 } 
- 
+/* end of font weights */
+
 
 body {
-  background-color: #d62f2f;   
+  background-color: #000000;   
   display:flex;
   justify-content: center;
   margin: 0px;
-  height: 2639px;
+  height: 2640px;
 }
 
 
@@ -46,16 +47,18 @@ body {
 }
 
 #home-header {
-  background-color: #d62f2f;
+  background-color: #715353;
   height: 152px;
   width: 1024px;
   border: 1px black;
 }
 
-#home-header-logo {
-  height: 20%;
-  width: 20%;
+#home-header-logo img[src="IMAGES/tran.andrew.png"] {
+  margin-top: 35px;
+  margin-left: 35px;
 }
+
+/* end of home header */
 
 #home-name {
   border: 1px #d62f2f;
@@ -65,6 +68,20 @@ body {
   font-size: 50px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home-name-name {
+  height: 345px;
+  width: 792px;
+  border: 2px solid black;
+}
+
+#home-name-list {
+  list-style-type: none;
+  display: flex;
+  font-size: 40px;
 }
 
 #home-descriptions {
@@ -75,24 +92,35 @@ body {
 .home-descriptions-list {
   list-style-type: none;
   display: flex;
-  font-size: 50px;
+  font-size: 65px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 14px;
+  padding-top: 125px;
+  padding-bottom: 125px;
 }
 
 
 #home-bio {
-    background-color: black;
-    color: #d62f2f;
-    display: flex;
-    justify-content: center;
-    height: 450px;
+  background-color: black;
+  color: #d62f2f;
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#home-bio-box {
+  margin-top: 35px;
+  border-top: 2px solid #d62f2f;
+  margin-bottom: 35px;
+  border-bottom: 2px solid #d62f2f;
 }
 
 #home-works {
-    height: 890px;
+  height: 890px;
 }
 
 .home-featured-works {
@@ -109,12 +137,23 @@ body {
   background-color: black;
 }
 
+#home-footer-links-box {
+  background-color: aliceblue;
+  margin-top: 30px;
+  border-top: 2px solid #d62f2f;
+  height: 86px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #d62f2f;
+}
+
 .home-footer-links {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   align-content: center;
-  border: 1px #d62f2f;
+  border: 2px #d62f2f;
   color: #d62f2f;
   font-size: 30px;
 }
+
+/* end of home */
