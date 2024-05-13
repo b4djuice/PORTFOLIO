@@ -82,7 +82,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  font-size: 30px;
+  font-size: 150px;
   align-items: center;
 }
 
@@ -101,6 +101,7 @@ body {
   gap: 14px;
   padding-top: 125px;
   padding-bottom: 125px;
+  color: black;
 }
 
 
@@ -142,6 +143,20 @@ body {
   background-color: rgb(180, 79, 79);
   margin-left: 27px;
 }
+
+#home-works-box-one {
+  background-color: #000000;
+  height: 275px;
+  width: 275px;
+}
+
+#home-works-box-two {
+  background-color: #000000;
+  height: 275px;
+  width: 275px;
+  margin-top: 50px;
+}
+
 
 #home-footer {
   background-color: black;

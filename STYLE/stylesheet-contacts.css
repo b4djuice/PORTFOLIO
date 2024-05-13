@@ -1,0 +1,126 @@
+.hind-madurai-light {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.hind-madurai-regular {
+  font-family: "Hind Madurai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.hind-madurai-medium {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+  
+.hind-madurai-semibold {
+   font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+  
+.hind-madurai-bold {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+} 
+
+body {
+    background-color: #000000;   
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 1095px;
+}
+
+#main-container {
+    background-color: #000000;
+    width: 1024px;
+    height: 1095px;
+}
+  
+#top-header {
+    height: 152px;
+    width: 1024px;
+}
+  
+#header-logo img[src="IMAGES/tran.andrew.png"] {
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+#contacts {
+    height: 490px;
+    border-top: #d62f2f 2px solid;
+    border-bottom: #d62f2f 2px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.word {
+    color: #d62f2f;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 150px
+}
+
+#contact-info {
+    height: 225px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-list {
+    list-style-type: none;
+    color: #d62f2f;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#location-box {
+    height: 43px;
+    width: 235px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+}
+
+.location {
+    list-style-type: none;
+    color: #d62f2f;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+}
+
+#footer-links-box {
+    background-color: #d62f2f;
+    border-top: 2px solid black;
+    height: 86px;
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+}
+  
+.footer-links {
+    background-color: #d62f2f;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border: 2px #000000;
+    color: black;
+    font-size: 30px;
+}
+
+a:link, a:visited{
+    color:#000000;
+    text-decoration: none;
+    cursor: pointer;
+}
