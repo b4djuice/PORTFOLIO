@@ -45,11 +45,19 @@ body {
 #top-header {
     height: 152px;
     width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
   
 #header-logo img[src="IMAGES/tran.andrew.png"] {
     margin-top: 35px;
     margin-left: 35px;
+}
+
+#header-menu img[src="IMAGES/menu-red.png"] {
+    margin-top: 60px;
+    margin-right: 40px;
 }
 
 #works {

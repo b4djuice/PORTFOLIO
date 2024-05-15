@@ -45,12 +45,22 @@ body {
 #header {
     height: 152px;
     width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
   
 #header-logo img[src="IMAGES/tran.andrew.png"] {
     margin-top: 35px;
     margin-left: 35px;
 }
+
+#header-menu img[src="IMAGES/menu-red.png"] {
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+/* end of header */
 
 #about {
     height: 490px;
@@ -68,26 +78,33 @@ body {
     font-size: 150px
 }
 
+/* end of ABOUT */
+
 #bio {
     color: #d62f2f;
     height: 606px;
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 43px;
     border-bottom: #d62f2f 2px solid;
+    align-items: center;
 }
+
+/* end of bio */
 
 #lists {
     height: 345px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 #education {
     height: 234px;
     width: 340px;
-    background-color: beige;
+    margin-left: 35px;
+    margin-top: 35px;
 }
 
 .education-header {
@@ -96,6 +113,8 @@ body {
     font-family: "Hind Madurai", sans-serif;
     font-weight: 600;
     font-style: normal;
+    margin-top: -20px;
+    margin-left: -3px;
 }
 
 .education-list {
@@ -105,31 +124,16 @@ body {
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
+    margin-left: -40px;
+    margin-top: -40px;
 }
 
 #skills {
     height: 234px;
     width: 340px;
-    background-color: beige;
+    margin-right: 35px;
+    margin-top: 35px;
 }
-
-.skills-header {
-    color: #d62f2f;
-    font-size: 63px;
-    font-family: "Hind Madurai", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.skills-list {
-    list-style-type: none;
-    color: white;
-    font-family: "Hind Madurai", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-}
-
 
 #footer-links-box {
     background-color: #d62f2f;

@@ -52,11 +52,19 @@ body {
   height: 152px;
   width: 1024px;
   border: 1px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #home-header-logo img[src="IMAGES/tran.andrew.png"] {
   margin-top: 35px;
   margin-left: 35px;
+}
+
+#home-header-menu img[src="IMAGES/menu-black.png"] {
+  margin-top: 60px;
+  margin-right: 40px
 }
 
 /* end of home header */
@@ -68,7 +76,6 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -82,9 +89,11 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  font-size: 150px;
-  align-items: center;
+  font-size: 175px;
+  line-height: 1.25;
 }
+
+/* end of title name */
 
 #home-descriptions {
   background-color: white;
@@ -122,6 +131,8 @@ body {
   border-bottom: 2px solid #d62f2f;
 }
 
+/* end of bio */
+
 #home-works {
   height: 890px;
 }
@@ -157,6 +168,7 @@ body {
   margin-top: 50px;
 }
 
+/* end of works */
 
 #home-footer {
   background-color: black;

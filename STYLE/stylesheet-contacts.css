@@ -45,11 +45,19 @@ body {
 #top-header {
     height: 152px;
     width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
   
 #header-logo img[src="IMAGES/tran.andrew.png"] {
     margin-top: 35px;
     margin-left: 35px;
+}
+
+#header-menu img[src="IMAGES/menu-red.png"] {
+    margin-top: 60px;
+    margin-right: 40px;
 }
 
 #contacts {
@@ -58,6 +66,7 @@ body {
     border-bottom: #d62f2f 2px solid;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .word {
@@ -72,6 +81,7 @@ body {
     height: 225px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .contact-list {
@@ -81,14 +91,18 @@ body {
     font-weight: 500;
     font-style: normal;
     font-size: 30px;
+    margin-top: 38px;
+    line-height: 2;
 }
 
 #location-box {
     height: 43px;
     width: 235px;
-    background-color: beige;
+    margin-top: 85px;
+    margin-right: 55px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .location {
